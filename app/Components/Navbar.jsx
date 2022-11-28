@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <nav className="bg-[#0d253f] p-3 px-20 text-white">
       <div className="navbar flex justify-between items-center ">
-        <div className="logo bg-gradient-to-r from-[#90cea1] to-[#01b4e4]">
+        <div className="logo bg-clip-text text-transparent bg-gradient-to-r from-light-green to-light-blue">
           <Link href={"/"} className="flex gap-2 items-center">
             <h1 className="text-3xl font-bold tracking-widest ">TMDB</h1>
-            <div className="bg-white h-4 w-16 rounded-3xl" />
+            <div className="h-4 w-16 rounded-3xl bg-gradient-to-r from-light-green to-light-blue" />
           </Link>
         </div>
         <ul className="hidden sm:flex gap-20 font-semibold ">

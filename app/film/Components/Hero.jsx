@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import bgImg from "../../../public/starwars2.png";
+import bgImg from "../../../public/img/starwars2.png";
 
 const Hero = () => {
   return (
@@ -12,10 +12,10 @@ const Hero = () => {
         objectFit="cover"
         className="-z-10"
       />
-      <div className="hero-wrapper p-10  space-y-7 text-white">
-        <div className="text-hero space-y-3 mt-10">
-          <h1 className="text-5xl font-bold">Welcome.</h1>
-          <h2 className="text-4xl font-medium">
+      <div className="hero-wrapper p-5 sm:p-10 space-y-5 text-white">
+        <div className="text-hero space-y-3">
+          <h1 className="text-4xl font-bold sm:text-5xl">Welcome.</h1>
+          <h2 className="text-3xl font-medium sm:text-4xl">
             Millions of movies, TV shows and people to discover. Explore now.
           </h2>
         </div>
