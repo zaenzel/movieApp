@@ -4,7 +4,7 @@ import img from "../../public/img/starwars.jpg";
 
 const Card = () => {
   return (
-    <div className="card p-5 space-y-4 ">
+    <div className="card px-5 space-y-4 ">
       <div className="img-card min-w-[150px] h-[225px] relative ">
         <Image
           src={img}

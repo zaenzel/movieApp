@@ -5,7 +5,7 @@ import { FaPlay } from "react-icons/fa";
 
 const Cardtrailer = () => {
   return (
-    <div className="card px-5 py-2">
+    <div className="card px-5 pt-2 pb-6">
       <div className="video-card-trailer w-[300px] h-[168px] relative cursor-pointer hover:scale-105 transition-all duration-300 ease-out">
         {/* <iframe
           src="https://www.youtube.com/embed/Xp-fZcMOsdw"
