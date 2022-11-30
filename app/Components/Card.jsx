@@ -12,6 +12,7 @@ const Card = () => {
           layout="fill"
           objectFit="cover"
           className="rounded-lg"
+          placeholder="blur"
         />
         <div className="rating absolute bg-dark-blue p-[2px] rounded-full -bottom-3 left-2">
           <p className="text-sm font-bold text-white p-1 border-2 border-yellow-300 rounded-full">
