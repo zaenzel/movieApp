@@ -22,7 +22,7 @@ const Card = () => {
       </div>
       <div className="desc">
         <h5 className="title font-bold">The School for Good and Evil</h5>
-        <p className="date text-gray-500">Okt 19, 2022</p>
+        <p className="date text-gray-500">Okt 10, 2022</p>
       </div>
     </div>
   );
